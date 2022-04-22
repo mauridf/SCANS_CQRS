@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SCANS_CQRS.Entity
 {
-    public class Editora
+    public class Idioma
     {
         [Key]
-        public int IdEditora { get; set; }
-        public string NomeEditora { get; set; }
+        public int IdIdioma { get; set; }
+        public string NomeIdioma { get; set; }
         public List<HQ> HQs { get; set; }
     }
 }
