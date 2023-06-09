@@ -10,7 +10,7 @@ using SCANS_CQRS.Context;
 namespace SCANS_CQRS.Migrations
 {
     [DbContext(typeof(ScanDbContext))]
-    [Migration("20230609191845_Inicial")]
+    [Migration("20230609193905_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
